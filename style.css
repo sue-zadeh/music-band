@@ -1,0 +1,250 @@
+
+.nav {
+	background-color:#f1bebc;
+	font-family: Arial, Times New Roman, serif;
+	font-size: 18px;
+	align-content: center;
+	justify-items: center;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	margin-top:25px;
+	text-decoration: no;
+ }
+.Link {
+    color: #161447;
+	text-align: center;
+	padding-left: 50px;
+	margin: 15px;
+	text-decoration: none; 
+}
+.Link:hover {
+    color:#a10c75;
+	font-style: italic;
+}
+
+.image {
+	align-items: center
+}	
+.index {
+display: grid;
+grid-template-columns: 1fr 1.25fr 1fr;
+justify-items: center;
+margin-top: 2em;
+	
+}
+.p {
+	margin :10em;
+	justify-items: center;
+}
+.play {
+	font-family: Arial, Times New Roman, serif;
+	font-style: italic;
+	justify-self: center;
+	font-size: 20px;
+	padding-left: 0px;
+	margin :2.5em;
+}
+.Rastak {
+	font-family: Arial, Times, Times New Roman, serif;
+	font-size: 38px;  
+	text-align: center;
+	text-shadow: 2px 3px 5px #F79892;
+}
+.Rastak1 {
+	font-size: 30px;
+	font-family: Arial, Times New Roman, serif;
+	text-align: center;
+	text-shadow: 2px 3px 5px #F79892;
+	padding-top: 0px;
+}
+.Rastak2 {
+	font-size: 22px;
+	font-family: Arial, Cambria, Hoefler Text, Times, Times New Roman, serif;
+	padding-left: 0px;
+	margin-top: 0px;
+	border-spacing: 0px;
+	
+}
+.bestmusic {
+	text-align: center;
+	font-family: Arial, Hoefler Text, Times, Times New Roman, serif;
+	font-size: 19px;
+	text-shadow: 2px 3px 5px #F79892;
+	 text-decoration: underline;
+  text-decoration-color: #2F0A0A;
+}
+.inviting {
+	font-family: Arial," sans-serif" Liberation Serif, Times, Times New Roman, serif;
+	display: inline;
+	font-size: 21px;
+	color: #210308;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 2px 3px 5px #F7A8A3;
+}
+.Link2 {
+	color: #3A0E31;
+	}
+.Link2:hover {
+    color:#f0a29e;
+	font-family: Arial,Monaco, Courier New, monospace;
+	font-size: 21px;
+	transform: translate(100px, 100px);
+	background-color:#DC918D;
+ }
+.play {
+	font-size: 20px;
+	text-align: center;
+	}
+.social-media {
+	background-color:#fce1eb;
+	margin-top: 20px;
+	justify-items: center;
+}
+	
+  
+	/* !<------------------------------------------about us> */
+	.imageabout {
+		border: 10px solid #823232;
+		 margin-top: 20px; 
+		 border-radius: 25px 0px; 
+         justify-content: center;
+         justify-self: center;
+         box-shadow: 10px 2px 10px 5px #999;
+		 transition: width 2s, height 2s, transform 2s;
+ 	}
+	 .imageabout:hover {
+		transform: rotate(360deg); 
+	 }
+	.image2 {
+	margin-top: 20px;
+	padding-top: 20px;
+	border-radius: 50%;
+	border-color: "#9E4949";
+	box-shadow:1px 2px 10px 5px #999;
+}
+
+.h3r {
+	font-family: Arial, Liberation Serif, Times, Times New Roman, serif;
+	color: #272121;
+	font-size: 18px;
+	font-stretch: normal;
+	text-align: center;
+	padding: 5px 6em; 
+	line-height: 40px;
+}
+.image4 {
+	width:"154"; 
+	height:"117";
+	border-color: #1F1C1C;
+	border-radius: 50%;
+	box-shadow: 8px 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+
+}
+.image4:hover {
+	transform: translate(5px, 10px);
+	width:"158"; 
+	height:"121";
+	transform: rotate(10deg);	
+}
+.about {
+	font-family: Arial, Liberation Serif, Times, Times New Roman, serif;
+	color: #272121;
+	font-size: 18px;
+	text-align: center;
+}
+.aboutus {
+	font-family: Arial, Liberation Serif, Times, Times New Roman, serif;
+	color: #272121;
+	font-size: 18px;
+	font-stretch: normal;
+	text-align: center;
+	}
+	
+	
+	/* !<-----------------------------------------music> */
+	.music {
+		display: grid;
+		grid-template-columns: repeat(3,auto);
+		justify-items: center;
+	}
+	.album {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		justify-items: center;
+		
+		margin: 0px;
+		padding: 0px;
+	}
+	.audiom {
+		justify-items: center;
+	}	
+	.table {
+		margin-top:0px;
+		padding: 0px;
+	}
+			
+	
+	.h4 {
+	text-align: center;
+	font-family: Arial, Hoefler Text, Times, Times New Roman, serif;
+	font-size: 20px;
+    text-align: justify;
+    line-height: 35px;
+	margin: 2em;
+	padding: 0em 2em;
+	}
+
+	.play {
+	flex-direction: column;	
+	align-items: center;
+	justify-content: center;
+	margin: 20px 0px 0px 10px;
+
+	}
+
+	/* -------------------------------------------photos */
+
+	.photos {
+		width:420px; 
+		height:350px; 
+		border: 5px solid #823232;
+	    margin-top: 20px; 
+		border-radius: 15% 0%;
+		transition: width 2s, height 2s, transform 2s;
+
+	}
+	.photos:hover {
+	 width: 500px;
+     height: 500px;
+
+	}
+	.photos3 {
+		transition: width 2s, height 2s, transform 2s;
+	}
+	.photos3:hover {
+		width: 550px;
+       height: 550px;
+
+	}
+	/* <----------------------------------------contact us> */
+	.bgimge {
+		
+			background-image: url(assets/pics/37.jpg);
+			background-position: left top;
+			background-repeat: no-repeat, repeat;
+			padding: 100px 50px;
+		  } 
+
+	.address {
+	margin-top: 20px;
+	padding-top: 30px;
+	background-color: #fde0e0
+			
+	}
+	
+	
+	
+	
+	
