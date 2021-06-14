@@ -1,6 +1,6 @@
 # music-band https://sedrz.github.io/music-band/
 (This is read me which was wrote on April 2019)
-This is my first project on the course “full stack web developer”. 
+This is my first project on the online course “full stack web developer”. 
 It should have been about a  band, but I wanted to choose a music band from my country, as I know more about them. So, my website is about a Persian popusic
 band called "Rastak". After doing research and gathering the necessary information about their band I designed this website for them.
 This project is written in HTML & CSS using Dream weaver software and is currently hosted on GitHub pages.
