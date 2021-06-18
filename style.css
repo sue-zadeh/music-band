@@ -134,19 +134,26 @@ margin-top: 2em;
 	padding: 5px 6em; 
 	line-height: 40px;
 }
-.image4 {
-	width:"154"; 
-	height:"117";
-	border-color: #1F1C1C;
-	border-radius: 50%;
-	box-shadow: 8px 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+.images {
+	display: grid;
+	grid-template-columns: repeat(10, 155px);
+	justify-items: center;
+	justify-content: center;
 
 }
+.image4 {
+	width: 154px; 
+	height: 117px;
+	padding: 15px;
+	margin:30px;  
+	border-radius: 50%;
+	box-shadow: 8px 5px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
 .image4:hover {
 	transform: translate(5px, 10px);
 	width:"158"; 
 	height:"121";
-	transform: rotate(10deg);	
 }
 .about {
 	font-family: Arial, Liberation Serif, Times, Times New Roman, serif;
