@@ -139,13 +139,14 @@ margin-top: 2em;
 	grid-template-columns: repeat(10, 155px);
 	justify-items: center;
 	justify-content: center;
+	margin:15px; 
 
 }
 .image4 {
 	width: 154px; 
 	height: 117px;
-	padding: 15px;
-	margin:30px;  
+	padding: 25px;
+	margin:35px;  
 	border-radius: 50%;
 	box-shadow: 8px 5px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19); 
 }
