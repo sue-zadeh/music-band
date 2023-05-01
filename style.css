@@ -1,5 +1,7 @@
 
 .nav {
+	display: flex;
+	align-items: center;
 	background-color:#f1bebc;
 	font-family: Arial, Times New Roman, serif;
 	font-size: 18px;
