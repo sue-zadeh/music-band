@@ -1,7 +1,7 @@
 # music-band https://sue-raisianzadeh.github.io/music-band/
 
 
-This is my first project on the online course “full stack web developer” in 2019. 
+This is my first project on the online course “full stack web developer” in 2019. I edited it in2021. 
 
 This project is written in HTML5 & CSS3 using visual studio software and is currently hosted on GitHub pages.
 as well I used photoshop to prepare pictures and 1 animated pics on the top of "Photos" page.
