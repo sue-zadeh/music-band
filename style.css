@@ -13,6 +13,7 @@
 	margin-top:25px;
 	text-decoration: no;
  }
+
 .Link {
     color: #161447;
 	text-align: center;
@@ -20,6 +21,7 @@
 	margin: 15px;
 	text-decoration: none; 
 }
+
 .Link:hover {
     color:#a10c75;
 	font-style: italic;
