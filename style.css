@@ -49,12 +49,14 @@ margin-top: 2em;
 	padding-left: 0px;
 	margin :2.5em;
 }
+
 .Rastak {
 	font-family: Arial, Times, Times New Roman, serif;
 	font-size: 38px;  
 	text-align: center;
 	text-shadow: 2px 3px 5px #F79892;
 }
+
 .Rastak1 {
 	font-size: 30px;
 	font-family: Arial, Times New Roman, serif;
@@ -62,6 +64,7 @@ margin-top: 2em;
 	text-shadow: 2px 3px 5px #F79892;
 	padding-top: 0px;
 }
+
 .Rastak2 {
 	font-size: 22px;
 	font-family: Arial, Cambria, Hoefler Text, Times, Times New Roman, serif;
