@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-import NavBar from './NavBar'
 
 function ContactMe() {
   const [name, setName] = useState('')
