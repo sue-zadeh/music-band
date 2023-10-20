@@ -72,11 +72,7 @@ function ContactMe() {
 
   return (
     <div>
-      {/* <div className="devNavcontact">
-        <NavBar />
-      </div> */}
-
-      <div className="container">
+     <div className="container">
         <form onSubmit={handleSubmit}>
           <h2 className="h2-form">Please fill out the form</h2>
           <label htmlFor="name">Name:</label>
