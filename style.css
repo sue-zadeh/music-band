@@ -259,7 +259,149 @@ margin-top: 2em;
 			
 	}
 	
-	
+/* ContactMe */
+
+body {
+  background-color: black;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+/* .devNavcontact {
+  margin-top: 6em;
+
+} */
+.h2-form {
+  margin-top: 20px;
+  font-size: 2.75em;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px){
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-content: center;
+    align-items: center;
+    margin: auto imortant;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-top: 7em;
+  border-radius: 15px;
+  width: 50vw;
+  margin: auto;
+  padding-left: 0%;
+  padding-right: 0%;;
+}
+
+
+form label {
+  display: block;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  justify-content: center;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  height: 50px; /* Decreased height to bring the labels closer to the input boxes */
+  line-height: 90px; 
+}
+
+
+form input {
+  width: 33vw;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+
+form textarea {
+  width: 33vw;
+  height: 7em;
+  padding: 8px;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 3px;
+  line-height: 20px;
+  justify-self: center;
+  justify-content: center;
+  border-radius: 10px;
+
+}
+
+form button {
+  background-color: #1d4159;
+  letter-spacing: 3px;
+  height: 4em;
+  width: 33vw;
+  align-self: center;
+  /* font-family:'Times New Roman', Times, serif; */
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+} 
+form button:hover {
+background-color: #5184a7;
+font-size: 1.5em;
+}        
+ 
+form button:active {
+  background-color: #7099b5;
+  box-shadow: 02px #c9c9c9;
+  transform: translateY(7px);
+}
+
+.popup {
+  position: fixed;
+  top: 26%;
+  left: 50%;
+  border: 3px solid grey;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  font-size: 1.45em;
+  color:white;
+  text-align: center;
+  box-shadow: 2px 2px #868889;
+  z-index: 9999; /* Higher z-index value to bring it to the top */
+}
+
+.popup p {
+  margin-bottom: 10px;
+}	
 	
 	
 	
