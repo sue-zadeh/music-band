@@ -376,13 +376,11 @@ form button:hover {
 background-color: #5184a7;
 font-size: 1.5em;
 }        
- 
 form button:active {
   background-color: #7099b5;
   box-shadow: 02px #c9c9c9;
   transform: translateY(7px);
 }
-
 .popup {
   position: fixed;
   top: 26%;
