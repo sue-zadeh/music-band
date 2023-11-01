@@ -12,23 +12,19 @@ function ContactMe() {
     setName(e.target.value)
     setShowPopup(false)
   }
-
-  const handleEmailChange = (e) => {
+   const handleEmailChange = (e) => {
     setEmail(e.target.value)
     setShowPopup(false)
   }
-
   const handleMessageChange = (e) => {
     setMessage(e.target.value)
   }
-
   const validateForm = () => {
     const errors = {}
 
     if (!name.trim()) {
       errors.name = 'Name is required'
     }
-
     if (!email.trim()) {
       errors.email = 'Email is required'
     } else if (!/\S+@\S+\.\S+/.test(email)) {
